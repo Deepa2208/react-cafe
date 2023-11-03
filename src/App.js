@@ -5,7 +5,6 @@ import Menu from "./component/Menu";
 import About from "./component/About";
 import './App.css';
 import {Routes,Route,Link} from "react-router-dom"
-
 function App() {
   // const [openLinks, setOpenLinks] = useState(false);
 
@@ -13,14 +12,13 @@ function App() {
   //   setOpenLinks(!openLinks);
   // };
   return (
-    <div className="navbar">
-      <div className="title">
-       
+   
+    <div className="navbar"> 
 
-      </div>
+
           <ul>
-         <h1>
-          Welcome to Wag Cafe</h1>
+         <h1><center>
+          Welcome to Wag Cafe</center></h1>
         
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>

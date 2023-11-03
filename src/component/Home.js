@@ -1,14 +1,18 @@
 import React from "react";
-import img1 from "../img/pic1.jpg";
-import logo from "../img/27cce497-1a6f-42ef-ae7d-c584c1244f1f.jpg";
-
-
+import img2 from "../img/woman-with-dog-walks-by-cafe-with-glass-door-people-drink-coffee-restaurant-concept-vector-illustration-cafe-owner-greets-customers-front-his-shop_453374-90.jpg";
 function Home() {
   return (
     
-    <div className="home">
-      <img className="img1" src={img1}></img>
+      <div className="homeimg" >
+        <center>
+      <img className="img2" src={img2} ></img>
+      </center>
+      <br></br><br></br>
+        <div>
+          <h2><center>We Provide</center></h2>
+        </div>
       </div>
+  
   );
 }
 
